@@ -25731,7 +25731,7 @@ spec:
           readOnlyRootFilesystem: true
           runAsNonRoot: true
           seccompProfile:
-            type: RuntimeDefault
+            type: Unconfined
         volumeMounts:
         - mountPath: /app/config/ssh
           name: ssh-known-hosts
